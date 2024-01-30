@@ -1,7 +1,9 @@
 body {
   background-color: white;
   font-family: arial, verdana, sans-serif;
-  padding-left: 25px;
+  padding: 25px;
+  border-radius: 7px;
+  border: 1px solid black;
   
 }
 
@@ -45,8 +47,11 @@ h1 {
   
 }
 h4 {
-  color: midnightblue;
+  background: lightsteelblue;
+  color: black;
   margin-bottom: 5px;
+  padding: 5px; 
+  border-radius: 5px
 }
 h5{
   margin: 5px;
@@ -61,13 +66,14 @@ p1{
 .contractedby{
   font-size: 9pt;
 }
-.bold{
-  font-weight: bold;
-}
 
 li{
   font-size: 9pt;
   padding-bottom: 5px;
+}
+
+.bold{
+  font-weight: bold;
 }
 
 .row{
